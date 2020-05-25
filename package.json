@@ -1,0 +1,37 @@
+{
+  "name": "reason-sls-example",
+  "version": "0.1.0",
+  "description": "Example repo of a bucklescript-nodeJS serverless project",
+  "repository": "git+https://github.com/tsnobip/reason-sls-examplea.git",
+  "keywords": [
+    "aws",
+    "amazon",
+    "lambda",
+    "FaaS",
+    "serverless",
+    "sls",
+    "Bucklescript",
+    "ocaml",
+    "reasonml",
+    "reason",
+    "node",
+    "nodejs"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "author": "Paul Tsnobiladzé <paul.tsnobiladze@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tsnobip/reason-lambda": "^0.1.0",
+    "bs-platform": "^7.3.2"
+  },
+  "devDependencies": {
+    "serverless-reasonml": "^1.0.3",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
