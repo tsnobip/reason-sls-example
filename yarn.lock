@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@tsnobip/reason-lambda@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@tsnobip/reason-lambda/-/reason-lambda-0.1.0.tgz#8de8472a35f2273bbbda1fb6f352f36049a9cbce"
-  integrity sha512-6wlrQQW5N1vdjYUNuNpdnfQnDlChLzDFnC4gmuQf+h8UTxhmk3HFRoAE028jh6PN9kKBCCiXB3gy4DnuVLT4mA==
+"@tsnobip/reason-lambda@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@tsnobip/reason-lambda/-/reason-lambda-0.2.0.tgz#b9d649b714f3920d6786f09040ff70f5d3638090"
+  integrity sha512-T4OOjWGO0/En7VdfkXRQ/4LPvrJChU9/RONzX9K+4sdu6AmcpD5NggGfH5jvTC15zA9x2oJUjMJm1uAKeUsUgA==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"

@@ -4,7 +4,7 @@ type greetings = {greetings: string};
 
 let defaultName = "Anon";
 
-let handler: handler(greetings) =
+let handler: handler =
   (
     {
       pathParameters,
@@ -31,5 +31,5 @@ let handler: handler(greetings) =
       | None => defaultName
       };
     let greetings = {j|Hello $title$name, you're making this request to $functionName from $userAgent|j};
-    Response.make(~body={greetings: greetings}, ())->Js.Promise.resolve;
+    {greetings: greetings}->Response.fromBody->Js.Promise.resolve;
   };
