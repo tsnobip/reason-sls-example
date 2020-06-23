@@ -1,6 +1,6 @@
 {
   "name": "reason-sls-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Example repo of a bucklescript-nodeJS serverless project",
   "repository": "git+https://github.com/tsnobip/reason-sls-examplea.git",
   "keywords": [
