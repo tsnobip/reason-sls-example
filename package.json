@@ -1,6 +1,6 @@
 {
   "name": "reason-sls-example",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Example repo of a bucklescript-nodeJS serverless project",
   "repository": "git+https://github.com/tsnobip/reason-sls-examplea.git",
   "keywords": [
@@ -31,7 +31,7 @@
   "devDependencies": {
     "serverless-reasonml": "^1.0.3",
     "serverless-webpack": "^5.3.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
